@@ -21,6 +21,6 @@ from products.views import say_hi
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('say_hi/<str:name>/', say_hi),
-    path('show_time/<str:time>/', show_time),
+    path('show_time/', show_time)
 
 ]
